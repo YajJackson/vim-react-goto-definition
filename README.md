@@ -43,7 +43,7 @@ Searching algorythm works as follows:
 
 Add the following line to your `~/.vimrc` :
 ```
-Plugin 'Ivo-Donchev/vim-react-goto-definition'
+Plugin 'YajJackson/vim-react-goto-definition'
 ```
 and run:
 
