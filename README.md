@@ -43,12 +43,12 @@ Searching algorythm works as follows:
 
 Add the following line to your `~/.vimrc` :
 ```
-Plugin 'YajJackson/vim-react-goto-definition'
+Plug 'YajJackson/vim-react-goto-definition'
 ```
 and run:
 
 ```
-:PluginInstall
+:PlugInstall
 ```
 
 # Usage
