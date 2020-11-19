@@ -28,8 +28,7 @@ def search_in_file(*, file, word):
                     match = func(word)
 
                     if match in row:
-                        vim.command('split')
-                        vim.command(f'edit {file}|{idx+1}')
+                        vim.command(f'split {file}|{idx+1}')
                         row.index(word)
 
                         return True
